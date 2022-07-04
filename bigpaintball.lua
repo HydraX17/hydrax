@@ -1,4 +1,4 @@
-local library = require(game:GetService("ReplicatedStorage").Framework.Library)
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("HYDRAX HUB", "DarkTheme")
 
 -- Main
