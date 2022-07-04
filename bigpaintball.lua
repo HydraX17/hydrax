@@ -1,3 +1,4 @@
+local library = require(game:GetService("ReplicatedStorage").Framework.Library)
 local Window = Library.CreateLib("HYDRAX HUB", "DarkTheme")
 
 -- Main
