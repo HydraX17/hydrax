@@ -19,8 +19,8 @@ local EspSection = Main:NewSection("Esp")
 
 EspSection:NewToggle("Chams ESP", "See your enemies behind walls", function(state)
     if state then
-        print("Toggle On")
+        loadstring(game:HttpGet('raw.githubusercontent.com/HydraX17/hydrax/main/chamsesp.lua', true))()
     else
-        print("Toggle Off")
+        print("Ainda non da pra desativar")
     end
 end)
