@@ -16,11 +16,6 @@ end)
 local Esp = Window:NewTab("Esp")
 local EspSection = Main:NewSection("Esp")
 
-
-EspSection:NewToggle("Chams ESP", "See your enemies behind walls", function(state)
-    if state then
-        loadstring(game:HttpGet('raw.githubusercontent.com/HydraX17/hydrax/main/chamsesp.lua', true))()
-    else
-        print("Ainda non da pra desativar")
-    end
+EspSection:NewButton("ESP Nickname", "See your names behind walls", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/HydraX17/hydrax/main/chamsesp.lua', true))()
 end)
