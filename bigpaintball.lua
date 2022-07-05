@@ -14,7 +14,7 @@ end)
 -- Esp
 
 local Esp = Window:NewTab("Esp")
-local EspSection = Main:NewSection("Esp")
+local EspSection = Esp:NewSection("Esp")
 
 EspSection:NewButton("ESP Nickname", "See your names behind walls", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/HydraX17/hydrax/main/chamsesp.lua', true))()
