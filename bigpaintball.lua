@@ -20,6 +20,6 @@ EspSection:NewButton("ESP Nickname", "See your names behind walls", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/HydraX17/hydrax/main/chamsesp.lua', true))()
 end)
 
-EspSection:NewButton("Aimbot", "Aim only at the enemy's head", function()
+EspSection:NewButton("Silent Aim", "Aim only at the enemy's head", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/HydraX17/hydrax/main/aimbot.lua', true))()
 end)
